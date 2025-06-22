@@ -7,7 +7,7 @@ export const experiences = [
     visualKey: "grad",
   },
   {
-    date: "Maarch 2024 - February 2025",
+    date: "March 2024 - February 2025",
     title: "Senior Associate Software Development Engineer",
     org: "Workday",
     description: [
