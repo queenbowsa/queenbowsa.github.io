@@ -25,8 +25,8 @@ const ExperienceSection = () => {
             >
               <div className="w-1/2 h-full"></div>
 
-              <div className="relative md:absolute md:left-1/2 md:-translate-x-1/2 top-0 z-10 mb-4 md:mb-0">
-                <div className="w-15 h-15 border-4 rounded-full bg-white flex items-center justify-center overflow-hidden">
+              <div className="w-full flex justify-center md:absolute md:left-1/2 md:-translate-x-1/2 z-10 mb-4 md:mb-0">
+                <div className="w-16 h-16 border-4 rounded-full bg-white flex items-center justify-center overflow-hidden">
                   {isImage ? (
                     <img
                       src={visual}

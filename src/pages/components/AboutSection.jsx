@@ -33,7 +33,7 @@ export const AboutSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-6">
+          <div className="grid md:grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-6">
             <Card
               icon={<FaCode className="h-6 w-6 text-primary" />}
               title="Full Stack Development"
@@ -65,14 +65,18 @@ export const AboutSection = () => {
   );
 };
 
-// Reusable card component
 const Card = ({ icon, title, description }) => (
   <div className="gradient-border p-6 rounded-xl shadow-sm card-hover">
     <div className="flex items-start gap-4">
-      <div className="p-3 rounded-full bg-primary/10">{icon}</div>
-      <div className="text-left">
+      <div className="hidden sm:flex flex-shrink-0 p-3 rounded-full bg-primary/10">
+        {icon}
+      </div>
+
+      <div className="min-w-0 text-left">
         <h4 className="font-semibold text-lg mb-1">{title}</h4>
-        <p className="text-xs">{description}</p>
+        <p className="text-xs break-words text-muted-foreground">
+          {description}
+        </p>
       </div>
     </div>
   </div>
