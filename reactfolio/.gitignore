@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite cache
+.vite/
+
+# System files
+.DS_Store
+
+# Local environment variables
+.env
+.env.*.local
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS trash
+.Trashes
+
+# Output from deploy scripts
+.gh-pages/
