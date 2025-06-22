@@ -12,7 +12,9 @@ export const SkillsSection = () => {
             className="rounded-xl border border-border bg-muted/10 p-6 text-left shadow-md"
           >
             <div className="flex items-center gap-3 mb-4">
-              <div className="bg-primary/10 p-2 rounded-md">{imageMap[icon]}</div>
+              <div className="bg-primary/10 p-2 rounded-md">
+                {imageMap[icon]}
+              </div>
               <h4 className="font-semibold text-lg">{title}</h4>
             </div>
             <div className="flex flex-wrap gap-2">

@@ -6,7 +6,6 @@ import reactfolio from "../../../assets/reactfolio.png";
 import { FaCode, FaDatabase, FaWrench, FaServer } from "react-icons/fa";
 import { MdMonitor } from "react-icons/md";
 
-
 export const imageMap = {
   backend: <FaServer className="h-5 w-5 text-primary" />,
   databases: <FaDatabase className="h-5 w-5 text-primary" />,
@@ -18,5 +17,4 @@ export const imageMap = {
   workday: wdlogo,
   polyworld,
   reactfolio,
-  
 };

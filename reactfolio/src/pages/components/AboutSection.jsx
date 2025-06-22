@@ -2,7 +2,6 @@ import { GiBrain } from "react-icons/gi";
 import { FaCode, FaFileAlt } from "react-icons/fa";
 import { HiCpuChip } from "react-icons/hi2";
 
-
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
@@ -43,7 +42,8 @@ export const AboutSection = () => {
 
             <Card
               icon={<GiBrain className="h-6 w-6 text-primary" />}
-              title="AI & Interactive Systems"z
+              title="AI & Interactive Systems"
+              z
               description="Applying concepts from game AI, machine learning, and HCI to design smarter, more human-centered technologies."
             />
 
